@@ -109,8 +109,10 @@ span.pipe-divider {
   width: 1px;
 }
 
-a.header-link {
+div#options-container a,
+div#options-container button {
   font-size: 13.33px;
+  color: #000;
 }
 
 /* APPLICATION FILTER SECTION */
@@ -292,6 +294,11 @@ footer li {
   line-height: 20px;
 }
 
+footer a,
+footer button {
+  color: #000;
+  font-size: inherit;
+}
 footer a {
   text-decoration: underline;
 }
