@@ -58,16 +58,9 @@ button:focus {
 
 div#main-content {
   flex-grow: 1;
+  width: 100%;
   max-width: 1090px;
   position: relative;
-}
-
-svg#pending {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  height: 200px;
 }
 
 /* APPLICATION BUTTONS */
@@ -124,6 +117,8 @@ div#filters-container {
   width: 100%;
   padding: 20px;
   flex-direction: column;
+  box-shadow: 5px 10px;
+  z-index: 1;
 }
 
 h2#filters-title {
@@ -206,7 +201,7 @@ tr.row-main {
   cursor: pointer;
 }
 
-tr th:first-child {
+tr th.img {
   width: 50px;
 }
 
