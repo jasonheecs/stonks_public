@@ -40,7 +40,8 @@ a {
 
 /* BUTTON */
 
-button {
+button,
+a.header-link {
   margin: 0;
   padding: 0;
   background: unset;
@@ -70,7 +71,7 @@ button#try-again {
 }
 
 button#refresh {
-  text-align: left;
+  text-align: center;
   width: 60px;
 }
 
@@ -108,6 +109,10 @@ span.pipe-divider {
   width: 1px;
 }
 
+a.header-link {
+  font-size: 13.33px;
+}
+
 /* APPLICATION FILTER SECTION */
 
 div#filters-container {
@@ -117,7 +122,8 @@ div#filters-container {
   width: 100%;
   padding: 20px;
   flex-direction: column;
-  box-shadow: 5px 10px;
+  /*box-shadow: 5px 10px;*/
+  border: solid 3px;
   z-index: 1;
 }
 
@@ -267,6 +273,7 @@ li.post span {
 
 li.post a {
   text-decoration: underline;
+  /*line-height: 20px;*/
 }
 
 /* TABLE FOOTER */
@@ -275,9 +282,18 @@ footer {
   margin-top: 20px;
 }
 
-footer small {
-  display: block;
-  margin: 10px;
+footer ul {
+  padding: 0 20px;
+}
+
+footer li {
+  font-size: 12px;
+  margin-bottom: 5px;
+  line-height: 20px;
+}
+
+footer a {
+  text-decoration: underline;
 }
 
 /* TWENTIMENT LINK */

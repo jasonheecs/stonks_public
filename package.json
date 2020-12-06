@@ -15,7 +15,6 @@
     "scrapefrom": "^2.1.3",
     "simpul": "^0.3.7",
     "text-cleaner": "^1.2.1",
-    "wink-sentiment": "^5.0.2",
-    "yahoo-stock-api": "^1.0.5"
+    "wink-sentiment": "^5.0.2"
   }
 }
